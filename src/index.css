@@ -3,6 +3,12 @@
   --lightbrown:#E6DDDE;
 }
 
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
 .whole{
   background-color: var(--lightbrown);
 }
@@ -16,12 +22,207 @@
   padding: 0;
 }
 
+/* navbar */
+
+.navbar {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 36px;
+  margin-right: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-name{
+  font-family: "Jockey One", sans-serif;
+  color: var(--darkbrown);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+}
+
+.navbar-links a {
+  color: var(--darkbrown);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+  height: 20px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 15px;
+  padding-left: 13px;
+}
+
+.search-bar::placeholder{
+  color: var(--darkbrown);
+}
+
+.navleft{
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #4f3b38;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.user {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #4f3b38;
+}
+
+.icon-container {
+display: flex;
+align-items: center;
+gap: 5px;
+background-color: var(--darkbrown);
+border-radius: 14px;
+color: white;
+font-weight: 400;
+position: relative; 
+z-index: 10; 
+height: 25px;
+}
+
+.pointlogo{
+  font-family: "Jockey One", sans-serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+  display: flex;
+  background-color: rgb(206, 206, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.pointsdisplay{
+  font-family: "Jockey One", sans-serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+  color: var(--lightbrown);
+}
+
+.dropdown-menu {
+display: none;
+position: absolute;
+top: 100%; 
+left: 0;
+background-color: #4f3b38;
+padding: 10px 0; /* Padding around the list */
+border-radius: 10px;
+list-style-type: none;
+margin: 0;
+min-width: 150px; 
+text-align: left;
+z-index: 100; 
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.dropdown-menu li {
+padding: 10px 20px; 
+color: #f8f8f8; 
+cursor: pointer;
+font-weight: normal;
+}
+
+.icon-container:hover .dropdown-menu {
+display: block;
+}
+
+.dropdown-menu li:hover {
+background-color: #5b474a;
+}
+
+.options{
+  background-color: var(--darkbrown);
+  border-radius: 14px;
+  height: 34px;
+  width: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.options img:nth-child(1){
+  height: 24px;
+  margin: 0;
+}
+
+.options img:nth-child(4){
+  border-radius: 50%;
+}
+
+.icon {
+width: 25px;
+height: 25px;
+margin-left: 10px;
+}
+
+.signin {
+margin-left: 10px;
+}
+
+/* main */
+
 .herobanner{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 230px;
   position: relative;
+  margin-top: 8px;
 }
 
 .heroimg{
@@ -168,6 +369,10 @@ form{
   align-items: center;
 }
 
+form input{
+  outline-style: none;
+}
+
 .mailbox h1{
   font-weight: normal;
   font-size: 25px;
@@ -251,7 +456,7 @@ form{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   width: 100vw;
   height:100vh;
 }
@@ -269,42 +474,109 @@ form{
 }
 
 .brandbox h1{
+  margin-top: 20px;
   font-size:38px;
   font-weight: 300;
 }
 
 .logotext{
   font-size: 43px;
-  
+  font-family: "Jockey One", sans-serif;
 }
 
 .brandlogo{
   padding-top:20px ;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .brandbox img{
   width: 43px;
 }
 
+.brandbox button{
+  font-family: "Karla", sans-serif;
+  margin-top: 5px;
+  height: 32px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .branddisc{
-  font-size: 17px;
-  margin-bottom: 40px;
+  font-size: 20px;
+  margin-bottom: 60px;
 }
 
 .brandbox p{
   font-size: 20px;
+  font-family: "Karla", sans-serif;
 }
 
 .inputs{
   font-family: "Karla", sans-serif;
-  width: 200px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
 }
 
+.inputs h1{
+  margin-bottom: 34px;
+  font-weight: 500;
 
+}
 
+.inputs h3{
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 22px;
+}
 
+.credentials{
+  margin-bottom: 16px;
+  height: 32px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1.5px solid;
+  border-color: var(--darkbrown);
+  background-color: var(--lightbrown);
+  outline: none;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.inputs button{
+  margin-bottom: 8px;
+  height: 34px;
+  width: 258px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--darkbrown);
+  color: var(--lightbrown);
+  font-size: 16px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.helpsignin{
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember{
+  display: flex;
+}
+
+.remember input{
+  border: none;
+}
+
+/* media */
 
 @media screen and (max-width: 1160px) {
   .menu{
@@ -315,5 +587,32 @@ form{
 @media screen and (max-width: 925px) {
   .menu{
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .navbar-left{
+    display: none;
+  }
+  .search-bar{
+    width: 200px;
+  }
+}
+
+@media (max-width:700px){
+  .menu{
+    grid-template-columns: 1fr 1fr;
+  }
+  .search-bar{
+    display: none;
+  }
+}
+
+@media (max-width:613px) { 
+  .signinbox{
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1440px){
+  .menu{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
