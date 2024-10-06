@@ -34,9 +34,25 @@
   font-family: "Karla", sans-serif;
 }
 
+#mainnav{
+  padding-top:5px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 50;
+  background-color: var(--lightbrown);
+}
+
 .navbar-left {
   display: flex;
   align-items: center;
+  margin-top: 24px;
 }
 
 .navbar-logo {
@@ -88,12 +104,14 @@
 .navleft{
   display: flex;
   gap: 30px;
+  padding-left: 10px;
 }
 
 .navbar-right {
   display: flex;
   align-items: center;
   gap: 15px;
+  padding-right: 10px;
 }
 
 .icon-container {
@@ -157,13 +175,13 @@ height: 25px;
 display: none;
 position: absolute;
 top: 100%; 
-left: 0;
+left: -70px;
 background-color: #4f3b38;
 padding: 10px 0; /* Padding around the list */
 border-radius: 10px;
 list-style-type: none;
 margin: 0;
-min-width: 150px; 
+min-width: 130px; 
 text-align: left;
 z-index: 100; 
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
@@ -176,7 +194,7 @@ cursor: pointer;
 font-weight: normal;
 }
 
-.icon-container:hover .dropdown-menu {
+.pfpdiv:hover .dropdown-menu {
 display: block;
 }
 
@@ -200,8 +218,14 @@ background-color: #5b474a;
   margin: 0;
 }
 
-.options img:nth-child(4){
+.pfpdiv img{
   border-radius: 50%;
+}
+
+.pfpdiv{
+  margin-left: 10px;
+  margin-top: 4px;
+  position: relative;
 }
 
 .icon {
