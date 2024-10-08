@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Air walk 26th edition",
-    "image": "src/images/shoes.jpg",
+    "image": "/images/shoes.jpg",
     "rating": 4.5,
     "cost": "50 P",
     "category": "Footwear"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Fogg perfume",
-    "image": "src/images/perfume.avif",
+    "image": "/images/perfume.avif",
     "rating": 4.3,
     "cost": "300 P",
     "category": "Fragrance"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Lamp 2pc",
-    "image": "src/images/lamp.jpg",
+    "image": "/images/lamp.jpg",
     "rating": 4.7,
     "cost": "700 P",
     "category": "Home Decor"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Mouse & Keyboard",
-    "image": "src/images/mousekey.jpg",
+    "image": "/images/mousekey.jpg",
     "rating": 4.4,
     "cost": "1200 P",
     "category": "Electronics"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Black Earbud",
-    "image": "src/images/blackearbud.jpg",
+    "image": "/images/blackearbud.jpg",
     "rating": 4.6,
     "cost": "800 P",
     "category": "Audio"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Black Wired Earphone",
-    "image": "src/images/blackwiredearphone.jpg",
+    "image": "/images/blackwiredearphone.jpg",
     "rating": 4.2,
     "cost": "600 P",
     "category": "Audio"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "title": "Men's Ring",
-    "image": "src/images/mensring.jpg",
+    "image": "/images/mensring.jpg",
     "rating": 4.9,
     "cost": "1500 P",
     "category": "Jewelry"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "Pink Lehenga",
-    "image": "src/images/pinklehenga.webp",
+    "image": "/images/pinklehenga.webp",
     "rating": 4.5,
     "cost": "12.5 P",
     "category": "Clothes"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "title": "Black Lehenga",
-    "image": "src/images/blacklehenga.jpg",
+    "image": "/images/blacklehenga.jpg",
     "rating": 4.4,
     "cost": "11.25 P",
     "category": "Clothes"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "title": "Green Lehenga",
-    "image": "src/images/greenlehenga.webp",
+    "image": "/images/greenlehenga.webp",
     "rating": 4.6,
     "cost": "15 P",
     "category": "Clothes"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "title": "Mehendi Lehenga",
-    "image": "src/images/mehendilehenga.webp",
+    "image": "/images/mehendilehenga.webp",
     "rating": 4.7,
     "cost": "18.75 P",
     "category": "Clothes"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "title": "Green Kurta",
-    "image": "src/images/greenmenkurta.jpg",
+    "image": "/images/greenmenkurta.jpg",
     "rating": 4.3,
     "cost": "8.75 P",
     "category": "Clothes"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "title": "Kurta",
-    "image": "src/images/menskurta.webp",
+    "image": "/images/menskurta.webp",
     "rating": 4.2,
     "cost": "10 P",
     "category": "Clothes"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "title": "Pink Kurta",
-    "image": "src/images/pinkmenskurta.webp",
+    "image": "/images/pinkmenskurta.webp",
     "rating": 4.3,
     "cost": "8.75 P",
     "category": "Clothes"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "title": "Kids Pink Kurta",
-    "image": "src/images/kid1.webp",
+    "image": "/images/kid1.webp",
     "rating": 4.1,
     "cost": "7.5 P",
     "category": "Clothes"
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "title": "Kids Servani",
-    "image": "src/images/kid2.webp",
+    "image": "/images/kid2.webp",
     "rating": 4.5,
     "cost": "11.25 P",
     "category": "Clothes"
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "title": "Kids Blue Dress",
-    "image": "src/images/kid3.webp",
+    "image": "/images/kid3.webp",
     "rating": 4.2,
     "cost": "7.5 P",
     "category": "Clothes"
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "title": "Kids Red Dress",
-    "image": "src/images/kid4.avif",
+    "image": "/images/kid4.avif",
     "rating": 4.6,
     "cost": "8.75 P",
     "category": "Clothes"
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "title": "Female Blue Formal",
-    "image": "src/images/ff1.png",
+    "image": "/images/ff1.png",
     "rating": 4.4,
     "cost": "7.5 P",
     "category": "Clothes"
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "title": "Female Grey Formal",
-    "image": "src/images/ff2.jpg",
+    "image": "/images/ff2.jpg",
     "rating": 4.5,
     "cost": "8.75 P",
     "category": "Clothes"
@@ -162,7 +162,7 @@
   {
     "id": 21,
     "title": "Female White Formal",
-    "image": "src/images/ff3.png",
+    "image": "/images/ff3.png",
     "rating": 4.7,
     "cost": "11.25 P",
     "category": "Clothes"
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "title": "Male Blue Formal",
-    "image": "src/images/mf1.jpg",
+    "image": "/images/mf1.jpg",
     "rating": 4.0,
     "cost": "6.25 P",
     "category": "Clothes"
@@ -178,7 +178,7 @@
   {
     "id": 23,
     "title": "Male Green Formal",
-    "image": "src/images/mf2.jpg",
+    "image": "/images/mf2.jpg",
     "rating": 4.1,
     "cost": "7.5 P",
     "category": "Clothes"
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "title": "Male Full Formal",
-    "image": "src/images/mf3.jpg",
+    "image": "/images/mf3.jpg",
     "rating": 4.5,
     "cost": "12.5 P",
     "category": "Clothes"
@@ -194,7 +194,7 @@
   {
     "id": 25,
     "title": "Black Party Dress",
-    "image": "src/images/pf1.jpg",
+    "image": "/images/pf1.jpg",
     "rating": 4.2,
     "cost": "6.25 P",
     "category": "Clothes"
@@ -202,7 +202,7 @@
   {
     "id": 26,
     "title": "Party Dress",
-    "image": "src/images/pf2.webp",
+    "image": "/images/pf2.webp",
     "rating": 4.3,
     "cost": "7.5 P",
     "category": "Clothes"
@@ -210,7 +210,7 @@
   {
     "id": 27,
     "title": "Pink Party Wear",
-    "image": "src/images/pf3.webp",
+    "image": "/images/pf3.webp",
     "rating": 4.6,
     "cost": "8.75 P",
     "category": "Clothes"
@@ -218,7 +218,7 @@
   {
     "id": 28,
     "title": "Half Kurta",
-    "image": "src/images/mp1.webp",
+    "image": "/images/mp1.webp",
     "rating": 4.1,
     "cost": "5.63 P",
     "category": "Clothes"
@@ -226,7 +226,7 @@
   {
     "id": 29,
     "title": "Black Shirt",
-    "image": "src/images/mp2.webp",
+    "image": "/images/mp2.webp",
     "rating": 4.2,
     "cost": "5 P",
     "category": "Clothes"
