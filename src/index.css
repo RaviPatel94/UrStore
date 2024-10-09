@@ -86,6 +86,10 @@
   padding: 5px;
 }
 
+.category:hover {
+  color: #D9D9D9;
+}
+
 .search-bar {
   border-radius: 20px;
   padding: 8px;
@@ -693,6 +697,11 @@ form input{
   gap: 20px;
 }
 
+.skip{
+  color: var(--darkbrown);
+  text-decoration: none;
+}
+
 .skip:hover{
   text-decoration: underline;
 }
@@ -702,6 +711,14 @@ form input{
 @media screen and (max-width: 1160px) {
   .menu{
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .itemdispay{
+    width: 180px;
+    height: 200px;
+  }
+  .itemthumbnail{
+    width:180px ;
+    height:150px ;
   }
 }
 
