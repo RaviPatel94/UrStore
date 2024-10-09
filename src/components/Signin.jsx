@@ -26,11 +26,11 @@ export default function Signin() {
             <input type="email" className='credentials'/>
             <h3>password</h3>
             <input type="password" className='credentials' />
+            <Link to="/questions" className='navlink'>
             <button>
-                <Link to="/questions" className='navlink'>
                 Sign Up
-                </Link>
             </button>
+            </Link>
         </div>
         <div className='brandbox'>
             <h1>Welcome to</h1>
@@ -48,11 +48,11 @@ export default function Signin() {
             <input type="text" className='credentials'/>
             <h3>password</h3>
             <input type="password" className='credentials' />
+            <Link to="/" className='navlink'>
             <button>
-                <Link to="/questions" className='navlink'>
                 Sign in
-                </Link>
             </button>
+            </Link>
             <div className='helpsignin'>
                 <a href="">Forgot password</a>
                 <div className='remember'>
