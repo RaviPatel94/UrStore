@@ -28,12 +28,12 @@ export default function Navbar() {
           <img className="icon" src={trolley} alt="Cart" />
           <div className="pfpdiv"><img className="iconpfp" src={user} alt="User" />
             <ul className="dropdown-menu">
+            <NavLink className="navlink"
+              to={"/login"}>
               <li>
-                <NavLink className="navlink"
-                to={"/login"}>
                   Login
-                </NavLink>
               </li>
+              </NavLink>
               <hr />
               <li>Team</li>
               <hr />
@@ -49,16 +49,16 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar-left">
           <div className="navbar-links">
-            <a href="/">Home</a>
-            <a href="/clothes">Clothes</a>
-            <a href="/electronics">Electronics</a>
-            <a href="/kids">Kids</a>
-            <a href="/students">Students</a>
-            <a href="/furniture">Furniture</a>
-            <a href="/gifts">Gifts</a>
-            <a href="/sell">Sell</a>
-            <a href="/accessories">Accessories</a>
-            <a href="/bitcoin">Bitcoin</a>
+            <a href="/" className="category">Home</a>
+            <a href="/clothes" className="category">Clothes</a>
+            <a href="/electronics" className="category">Electronics</a>
+            <a href="/kids" className="category">Kids</a>
+            <a href="/students" className="category">Students</a>
+            <a href="/furniture" className="category">Furniture</a>
+            <a href="/gifts" className="category">Gifts</a>
+            <a href="/sell" className="category">Sell</a>
+            <a href="/accessories" className="category">Accessories</a>
+            <a href="/bitcoin" className="category">Bitcoin</a>
           </div>
         </div>
       </nav>
