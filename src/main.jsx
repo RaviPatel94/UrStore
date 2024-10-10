@@ -10,7 +10,8 @@ import Signin from './components/Signin'
 import { Menu } from './components/Menu'
 import Questions from './components/Questions.jsx'
 import { Herobanner } from './components/Herobanner'
-
+import Cart from './components/Cart'
+import Description from './components/ProductDescription.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -39,6 +40,24 @@ const router = createBrowserRouter([
         element:(
           <>
             <Questions/>
+          </>
+        )
+      },
+      {
+        path:'Cart',
+        element:(
+          <>
+            <Cart/>
+          </>
+        )
+      },
+      {
+        path:'description',
+        element:(
+          <>
+          <Navbar/>
+          <Description/>
+          <Footer/>
           </>
         )
       }
