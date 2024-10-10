@@ -23,28 +23,28 @@ export default function Footer() {
             </div>
             <div className='membercontainer'>
                 <div className="memberbox">
-                    <div className='memberimgbox'> <img src="src\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                    <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
                         <div className='membername'>Ravi Patel</div>
                         <div className='memberposition'>UI/UX, Frontend</div>
                     </div>
                 </div>
                 <div className="memberbox">
-                <div className='memberimgbox'> <img src="src\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
                         <div className='membername'>Yatharth Singh</div>
                         <div className='memberposition'>Frontend, Backend</div>
                     </div>
                 </div>
                 <div className="memberbox">
-                <div className='memberimgbox'> <img src="src\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
                         <div className='membername'>Anurag Pandey</div>
                         <div className='memberposition'>UI/UX, Frontend</div>
                     </div>
                 </div>
                 <div className="memberbox">
-                <div className='memberimgbox'> <img src="src\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
                         <div className='membername'>Sneha Patel</div>
                         <div className='memberposition'>UI/UX, Frontend</div>
