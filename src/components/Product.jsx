@@ -1,8 +1,10 @@
 import React from 'react'
+import {Link, NavLink} from 'react-router-dom'
 
-function Product({title,image,rating,cost}) {
+export default function Product({id,title,image,rating,cost}) {
   return (
-    <div className="itemdispay">            
+    <div className="itemdispay">
+        <Link to='/description' state={{id:id, title:title, image:image, rating:rating, cost:cost }} className='prduct_description_link'>   
         <div> <img className='itemthumbnail' src={image} alt="shoes" /></div>
         <div>
             <div className='itemtitle'>{title}</div>
@@ -16,8 +18,8 @@ function Product({title,image,rating,cost}) {
                 <div className='mcost'>{cost}</div>
             </div>
         </div>
+        </Link>
     </div>
   )
 }
 
-export default Product
