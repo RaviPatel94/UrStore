@@ -13,7 +13,7 @@ import { Herobanner } from './components/Herobanner'
 import Description from './components/ProductDescription.jsx'
 import { Provider } from 'react-redux'
 import {store} from './stores'
-import CartTab from './components/cartTab.jsx'
+import CartTab from './components/CartTab.jsx'
 import CheckOut from './components/CheckOut.jsx'
 
 const router = createBrowserRouter([
