@@ -6,7 +6,7 @@ import trolley from "/images/cart1.png";
 import user from "/images/icon.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import CartTab from "./CartTab";
+import CartTab from "./cartTab";
 export default function Navbar() {
   const [totalQuantity, setTotalQuantity] = useState(0);
   const carts = useSelector(store => store.cart.items );
@@ -54,7 +54,6 @@ export default function Navbar() {
                 >
                   <img className="icon" src={trolley} alt="Cart" />
 
-                  
                   <span
                     style={{
                       position: "absolute",
@@ -67,7 +66,7 @@ export default function Navbar() {
                       height: "15px",
                       display: "inline-block",
                       textAlign: "center",
-                      lineHeight: "15px",
+                      lineHeight: "15px", 
                       fontWeight: "bold",
                       textDecoration: "none",
                       fontSize: "10px", 
