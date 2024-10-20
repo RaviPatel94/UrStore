@@ -1,10 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Questions() {
-  const [age,setAge]=useState(20)
-  const [gender, setGender]=useState()
-  console.log(gender)
   return (
     <div className='questions'>
         <h1>Lets personalize your experience</h1>
@@ -12,17 +9,13 @@ function Questions() {
           <div className='questone'>
             <div className='agequest'>
                 <p>Age</p>
-                <input type="number" className="categoryprefer" min={0} 
-                max={100} 
-                value={age}
-                onChange={(e)=>{setAge(e.target.value)}}
-                />
+                <input type="number" className="categoryprefer"/>
             </div>
             <div className='genderquest'>
                 <p>Gender</p>
                 <div>
-                <button className="categorypref" id='male' onClick={(e)=>{setGender("Male")}}>Male</button>
-                <button className="categorypref" id='female' onClick={(e)=>{setGender("Female")}}>Female</button>
+                <button className="categorypref">Male</button>
+                <button className="categorypref">Female</button>
                 </div>
             </div>
             </div>
@@ -54,7 +47,7 @@ function Questions() {
             </div>
             <div></div>
         </div>
-        <p> <Link to='/' className='skip'> skip</Link>  </p>
+        <Link to='/' className='navlink' > <p className='skip'> skip </p> </Link>
     </div>
   )
 }
