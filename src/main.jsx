@@ -10,15 +10,29 @@ import Signin from './components/Signin'
 import { Menu } from './components/Menu'
 import Questions from './components/Questions.jsx'
 import { Herobanner } from './components/Herobanner'
-import Cart from './components/Cart'
 import Description from './components/ProductDescription.jsx'
+import { Provider } from 'react-redux';
+import {store} from './stores'
+import CartTab from './components/cartTab.jsx'
+import CheckOut from './components/CheckOut.jsx'
+
 const router = createBrowserRouter([
   {
     path:'/',
     element:<Layout/>,
     children:[
       {
-        path:'',
+        path:'/home',
+        element:(<>
+          <Navbar/>
+          <Herobanner/>
+          <Menu/>
+          <Footer/>
+          </>
+        )
+      },
+      {
+        path:'/',
         element:(<>
           <Navbar/>
           <Herobanner/>
@@ -44,14 +58,6 @@ const router = createBrowserRouter([
         )
       },
       {
-        path:'Cart',
-        element:(
-          <>
-            <Cart/>
-          </>
-        )
-      },
-      {
         path:'description',
         element:(
           <>
@@ -60,13 +66,33 @@ const router = createBrowserRouter([
           <Footer/>
           </>
         )
-      }
+      },
+      {
+        path:'cartTab',
+        element:(
+          <>
+          <Navbar/>
+          <Herobanner/>
+          <Menu/>
+          <CartTab/>
+          <Footer/>
+          </>
+        )},
+      {
+        path:'CheckOut',
+        element:(
+          <>
+          <Navbar/>
+          <CheckOut/>
+          <Footer/>
+          </>
+        )}
     ]
   }
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <Provider store={store}>
     <RouterProvider router={router}/>
-  </StrictMode>,
+  </Provider>
 )
