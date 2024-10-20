@@ -6,7 +6,7 @@ import trolley from "/images/cart1.png";
 import user from "/images/icon.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import CartTab from "./cartTab";
+import CartTab from "./CartTab";
 export default function Navbar() {
   const [totalQuantity, setTotalQuantity] = useState(0);
   const carts = useSelector(store => store.cart.items );
