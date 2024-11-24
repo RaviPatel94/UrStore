@@ -19,9 +19,11 @@ export default function Footer() {
         </div>
         <div className='team'>
             <div className='teamtitle'>
-                Team
+                Information
             </div>
+            
             <div className='membercontainer'>
+                <a href="https://github.com/RaviPatel94" target='_blank'>
                 <div className="memberbox">
                     <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
@@ -29,6 +31,8 @@ export default function Footer() {
                         <div className='memberposition'>UI/UX, Frontend</div>
                     </div>
                 </div>
+                </a>
+                <a href="https://github.com/snYatharth2005" target='_blank'>
                 <div className="memberbox">
                 <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
@@ -36,20 +40,27 @@ export default function Footer() {
                         <div className='memberposition'>Frontend, Backend</div>
                     </div>
                 </div>
+                </a>
+                <a href="https://www.figma.com/design/Yr1nf0TnfR1NYOg5Yf7OIa/Untitled?node-id=0-1&t=0gLJIedppd4q33Dz-1" target="_blank">
                 <div className="memberbox">
-                <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                <div className='memberimgbox'> <img src="\images\figma.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
-                        <div className='membername'>Anurag Pandey</div>
-                        <div className='memberposition'>UI/UX, Frontend</div>
+                        <div className='membername'>Figma</div>
+                        <div className='memberposition'>Design of this website</div>
                     </div>
                 </div>
+                </a>
+                <a href="https://github.com/RaviPatel94/UrStore" target="_blank">
                 <div className="memberbox">
-                <div className='memberimgbox'> <img src="\images\pp-removebg-preview.png" alt="" className='memberimg'/></div>
+                <div className='memberimgbox'> <img src="\images\github.png" alt="" className='memberimg'/></div>
                     <div className='memberdetails'>
-                        <div className='membername'>Sneha Patel</div>
-                        <div className='memberposition'>UI/UX, Frontend</div>
+                        <div className='membername'>Github</div>
+                        <div className='memberposition'>Repository for this project</div>
                     </div>
                 </div>
+                </a>
+                
+                
             </div>
         </div>
         </div>
