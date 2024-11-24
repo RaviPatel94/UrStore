@@ -616,6 +616,11 @@ form input{
   padding-top: 2px;
 }
 
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
 
 /* signin */
 
