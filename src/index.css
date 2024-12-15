@@ -1168,6 +1168,41 @@ footer a{
   .search-bar{
     display: none;
   }
+  .herohead{
+    font-size: 50px;
+  }
+  .herodisc{
+    font-size: 25px;
+  }
+  .herobanner{
+    height: 180px;
+  }
+  .heroshadow{
+    height: 150px;
+  }
+  .heroimg{
+    height: 150px;
+  }
+  .contactcontainer{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mailcontainer {
+    width: 220px;
+  }
+  .memberbox{
+    width: 220px;
+  }
+  .membercontainer {
+    grid-template-columns: 1fr;
+  }
+  .inpbox{
+    width: 220px;
+  }
+  .textbox{
+    width: 220px;
+  }
 }
 
 @media (max-width:613px) { 
@@ -1176,8 +1211,59 @@ footer a{
   }
 }
 
+@media (max-width:430px){
+  .herohead{
+    font-size: 45px;
+  }
+  .herodisc{
+    font-size: 20px;
+  }
+  .herobanner{
+    height: 130px;
+    margin-top: 40px;
+  }
+  .heroshadow{
+    height: 150px;
+  }
+  .logo-name{
+    font-size: 22px;
+  }
+  .navbar-logo{
+    width: 23px;
+  }
+  .options{
+    height: 30px;
+    width: 140px;
+  }
+  .navbar-right{
+    gap: 10px;
+  }
+  .icon-container{
+    height: 20px;
+  }
+  .icon,.options img:nth-child(1){
+    width: 20px;
+    height: 18px;
+  }
+  .itemdispay{
+    width: 150px;
+    height: 170px;
+  }
+  .itemthumbnail{
+    height: 120px;
+    width: 130px;
+  }
+  .herohead{
+    font-size: 40px;
+  }
+  .herodisc{
+    font-size: 20px;
+  }
+}
+
 @media (min-width:1440px){
   .menu{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
