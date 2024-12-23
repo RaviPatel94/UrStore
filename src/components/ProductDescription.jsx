@@ -14,7 +14,7 @@ export default function Description() {
                 </div>
 
                 <div className="product-details">
-                    <h2>{title} Lr-3krl</h2>
+                    <h2>{title} </h2>
                     <div className="ratings">
                         <span>{rating} ★</span>
                         <span>2,500 Ratings</span>
@@ -22,10 +22,14 @@ export default function Description() {
                     </div>
 
                     <div className="price-section">
+                        <div>
                         <span className="price">{cost} P</span>
                         <span className="discount">10% off</span>
+                        </div>
+                        <div>
                         <button className="add-to-cart" onClick={() => alert("clickedd...")}>Add to cart</button>
                         <button className="wishlist">❤ Wishlist</button>
+                        </div>
                     </div>
 
                     <div className="color-options">
