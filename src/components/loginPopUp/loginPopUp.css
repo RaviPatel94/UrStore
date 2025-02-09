@@ -1,0 +1,28 @@
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.signinbox{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    background-color: #00000090;
+    animation: fadeIn 0.5s;
+}
+
+.inputs{
+    background-color: white;
+    padding: 10px;
+}
+
+.cross_icon_login{
+    cursor: pointer;
+    float: right;
+    position: fixed;
+    margin-left: 230px;
+    margin-top: 5px;
+}

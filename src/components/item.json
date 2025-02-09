@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "title": "Air walk 26th edition",
+    "image": "/images/shoes.jpg",
+    "rating": 4.5,
+    "cost": "50",
+    "price": 100,
+    "category": "Footwear"
+  },
+  {
+    "id": 2,
+    "title": "Fogg perfume",
+    "image": "/images/perfume.avif",
+    "rating": 4.3,
+    "cost": "300",
+    "price": 100,
+    "category": "Fragrance"
+  },
+  {
+    "id": 3,
+    "title": "Lamp 2pc",
+    "image": "/images/lamp.jpg",
+    "rating": 4.7,
+    "cost": "700",
+    "price": 100,
+    "category": "Home Decor"
+  },
+  {
+    "id": 4,
+    "title": "Mouse & Keyboard",
+    "image": "/images/mousekey.jpg",
+    "rating": 4.4,
+    "cost": "1200",
+    "price": 100,
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "title": "Black Earbud",
+    "image": "/images/blackearbud.jpg",
+    "rating": 4.6,
+    "cost": "800",
+    "price": 100,
+    "category": "Audio"
+  },
+  {
+    "id": 6,
+    "title": "Black Wired Earphone",
+    "image": "/images/blackwiredearphone.jpg",
+    "rating": 4.2,
+    "cost": "600",
+    "price": 100,
+    "category": "Audio"
+  },
+  {
+    "id": 7,
+    "title": "Men's Ring",
+    "image": "/images/mensring.jpg",
+    "rating": 4.9,
+    "cost": "1500",
+    "price": 100,
+    "category": "Jewelry"
+  },
+  {
+    "id": 8,
+    "title": "Pink Lehenga",
+    "image": "/images/pinklehenga.webp",
+    "rating": 4.5,
+    "cost": "12.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 9,
+    "title": "Black Lehenga",
+    "image": "/images/blacklehenga.jpg",
+    "rating": 4.4,
+    "cost": "11.25",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 10,
+    "title": "Green Lehenga",
+    "image": "/images/greenlehenga.webp",
+    "rating": 4.6,
+    "cost": "15",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 11,
+    "title": "Mehendi Lehenga",
+    "image": "/images/mehendilehenga.webp",
+    "rating": 4.7,
+    "cost": "18.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 12,
+    "title": "Green Kurta",
+    "image": "/images/greenmenkurta.jpg",
+    "rating": 4.3,
+    "cost": "8.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 13,
+    "title": "Kurta",
+    "image": "/images/menskurta.webp",
+    "rating": 4.2,
+    "cost": "10",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 14,
+    "title": "Pink Kurta",
+    "image": "/images/pinkmenskurta.webp",
+    "rating": 4.3,
+    "cost": "8.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 15,
+    "title": "Kids Pink Kurta",
+    "image": "/images/kid1.webp",
+    "rating": 4.1,
+    "cost": "7.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 16,
+    "title": "Kids Servani",
+    "image": "/images/kid2.webp",
+    "rating": 4.5,
+    "cost": "11.25",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 17,
+    "title": "Kids Blue Dress",
+    "image": "/images/kid3.webp",
+    "rating": 4.2,
+    "cost": "7.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 18,
+    "title": "Kids Red Dress",
+    "image": "/images/kid4.avif",
+    "rating": 4.6,
+    "cost": "8.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 19,
+    "title": "Female Blue Formal",
+    "image": "/images/ff1.png",
+    "rating": 4.4,
+    "cost": "7.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 20,
+    "title": "Female Grey Formal",
+    "image": "/images/ff2.jpg",
+    "rating": 4.5,
+    "cost": "8.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 21,
+    "title": "Female White Formal",
+    "image": "/images/ff3.png",
+    "rating": 4.7,
+    "cost": "11.25",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 22,
+    "title": "Male Blue Formal",
+    "image": "/images/mf1.jpg",
+    "rating": 4.0,
+    "cost": "6.25",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 23,
+    "title": "Male Green Formal",
+    "image": "/images/mf2.jpg",
+    "rating": 4.1,
+    "cost": "7.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 24,
+    "title": "Male Full Formal",
+    "image": "/images/mf3.jpg",
+    "rating": 4.5,
+    "cost": "12.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 25,
+    "title": "Black Party Dress",
+    "image": "/images/pf1.jpg",
+    "rating": 4.2,
+    "cost": "6.25",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 26,
+    "title": "Party Dress",
+    "image": "/images/pf2.webp",
+    "rating": 4.3,
+    "cost": "7.5",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 27,
+    "title": "Pink Party Wear",
+    "image": "/images/pf3.webp",
+    "rating": 4.6,
+    "cost": "8.75",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 28,
+    "title": "Half Kurta",
+    "image": "/images/mp1.webp",
+    "rating": 4.1,
+    "cost": "5.63",
+    "price": 100,
+    "category": "Clothes"
+  },
+  {
+    "id": 29,
+    "title": "Black Shirt",
+    "image": "/images/mp2.webp",
+    "rating": 4.2,
+    "cost": "5",
+    "price": 100,
+    "category": "Clothes"
+  }
+]
