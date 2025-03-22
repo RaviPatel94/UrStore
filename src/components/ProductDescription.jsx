@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation } from 'react-router-dom';
 import '../index.css';
+import {useSelector, useDispatch} from 'react-redux';
+import {addItem} from '../stores/cart_data'
 
 export default function Description() {
+    const carts = useSelector(store => store.cart.items);
+    console.log(carts)
     const location = useLocation();
     const {id, title, image, rating, cost } = location.state || {};
+    const [quantity, setQuantity] = useState(1);
+    const dispatch = useDispatch();
+    const handleAddtoCart = () => {
+        dispatch(addItem({
+            productId: id,
+            quantity: 1
+        }));
+    }
+
     return (
         <div className="product-container">
 
@@ -14,7 +27,7 @@ export default function Description() {
                 </div>
 
                 <div className="product-details">
-                    <h2>{title} </h2>
+                    <h2>{title}</h2>
                     <div className="ratings">
                         <span>{rating} ★</span>
                         <span>2,500 Ratings</span>
@@ -22,14 +35,10 @@ export default function Description() {
                     </div>
 
                     <div className="price-section">
-                        <div>
                         <span className="price">{cost} P</span>
                         <span className="discount">10% off</span>
-                        </div>
-                        <div>
-                        <button className="add-to-cart" onClick={() => alert("clickedd...")}>Add to cart</button>
+                        <button className="add-to-cart" onClick={handleAddtoCart}>Add to cart</button>
                         <button className="wishlist">❤ Wishlist</button>
-                        </div>
                     </div>
 
                     <div className="color-options">

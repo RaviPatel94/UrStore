@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import products from './item.json';
 import { useDispatch } from "react-redux";
 import {changeQuantity} from '../stores/cart_data';
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 export default function CartItems(props) { 
     const { productId, quantity, isDisabled } = props.data;
@@ -55,9 +55,9 @@ export default function CartItems(props) {
         </Link>
             <p className="cart-price">price = {detail.price * quantity}₨</p>
             <div className="addToCart-buttons">
-                <button onClick={handleMinusQuantity}  disabled={isDisabled}>-</button>
+                <button onClick={handleMinusQuantity} className="addbutton-menu"  disabled={isDisabled}>-</button>
                 <span>{quantity}</span>
-                <button onClick={handlePlusQuantity}  disabled={isDisabled}>+</button>
+                <button onClick={handlePlusQuantity} className="subbutton-menu"  disabled={isDisabled}>+</button>
             </div>
         </div>
     );

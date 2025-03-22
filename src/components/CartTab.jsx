@@ -3,15 +3,13 @@ import { useSelector } from 'react-redux';
 import CartItems from './CartItems';
 import { Link } from "react-router-dom";
 import products from './item.json'; 
-import CheckOut from './CheckOut.jsx'
 
 const CartTab = () => {
   const carts = useSelector((store) => store.cart.items);
 
-  // Calculate the total price
   const totalPrice = carts.reduce((acc, item) => {
     const product = products.find(p => p.id === item.productId); 
-    return acc + (products.price * item.quantity); 
+    return acc + (product.price * item.quantity); 
   }, 0);
 
   return (
